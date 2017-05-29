@@ -1,0 +1,29 @@
+@font-face {
+    font-family: RobotoRegular;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/RobotoRegular/RobotoRegular.eot?#iefix) format("embedded-opentype"), url(../fonts/RobotoRegular/RobotoRegular.woff) format("woff"), url(../fonts/RobotoRegular/RobotoRegular.ttf) format("truetype");
+}
+
+
+@font-face {
+    font-family: Quark-Bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Quark/Quark-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Quark-Light;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Quark/Quark-Light.otf) format("opentype");
+}
+
+
+@font-face {
+    font-family: Pacifico-Regular;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf) format("truetype");
+}
