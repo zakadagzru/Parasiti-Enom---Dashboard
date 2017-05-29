@@ -5,9 +5,108 @@ body{
     line-height: 1.6;
     font-family: Quark-Bold;
     overflow-x: hidden;
+    background-color: #EEEEEE;
 }
 
 .hidden {
     display: none;
 }
 
+.pushy{
+	background-color:  #2C3E50;
+	width: 280px;
+}
+
+.pushy-content{
+	background-color: #34495E;
+}
+
+.pushy-content ul {
+	padding: 0;
+}
+
+.pushy-left h3{
+	font-family: Pacifico-Regular;
+	font-size: 25px;
+	color:#95A0AA;
+	padding: 0 12px;
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+.pushy-submenu span{
+	margin-right: 30px;
+	font-size: 15px;
+}
+
+.pushy-submenu{
+
+}
+
+.pushy-submenu:hover{
+	border-left: 5px solid #5FAEE3;
+}
+
+.pushy-submenu i{
+  margin-right: 10px;
+}
+
+.pushy-submenu button {
+    width: 100%;
+    color: #b3b3b1;
+    padding: 17px 21px;
+    text-align: left;
+    background: transparent;
+    border: 0;
+}
+
+.menu-btn-icon{
+	position: relative;
+	z-index: 100;
+}
+.menu-btn{
+
+}
+
+.menu-btn img{
+	width: 37px;
+	height: 41px;
+	border: none;
+	font-size: 22px;
+	line-height: 10px;
+	color: #fff;
+	position: absolute;
+	left: 60px;
+	top: 30px;
+	z-index: 10000;
+}
+
+.pushy-link {
+	margin-left: 20px;
+}
+
+.pushy-link a{
+	padding: 10px 30px;
+	font-size: 14px;
+}
+
+.header{
+ background-color: #fff;
+ max-width: 100%;
+ margin: 0;
+ height: 80px;
+}
+
+.header ul{
+	margin: 0 100px;
+	padding: 0;
+}
+
+.header li{
+	display: inline-block;
+	font-family: Quark-Bold, sans-serif;
+	font-size: 14px;
+	color: #95A0AA;
+}
