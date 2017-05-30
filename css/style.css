@@ -12,6 +12,18 @@ body{
     display: none;
 }
 
+a {
+	text-decoration: none;
+}
+
+.no-margin{
+	margin: 0 !important;
+}
+
+.no-padding{
+	padding: 0 !important;
+}
+
 .pushy{
 	background-color:  #2C3E50;
 	width: 280px;
@@ -67,7 +79,7 @@ ul, li {
 	z-index: 100;
 }
 .menu-btn{
-
+	position: absolute;
 }
 
 .menu-btn img{
@@ -95,13 +107,21 @@ ul, li {
 .header{
  background-color: #fff;
  max-width: 100%;
- margin: 0;
- height: 80px;
+ min-height: 80px;
+
 }
 
-.header ul{
-	margin: 0 100px;
+.header .active{
+	margin: 0;
 	padding: 0;
+	width: 400px;
+	float: left;
+}
+
+.header .active > li:hover{
+   color: #5FAEE3;
+   cursor: pointer;
+   transition: 0.3s;
 }
 
 .header li{
@@ -109,4 +129,94 @@ ul, li {
 	font-family: Quark-Bold, sans-serif;
 	font-size: 14px;
 	color: #95A0AA;
+	margin: 0 10px;
 }
+
+.header li span{
+	font-size: 8px;
+	border-radius: 50%;
+	padding: 2px 2px;
+	color: #fff;
+	position: relative;
+	bottom: 10px;
+	right: 5px;
+	background: red;
+}
+
+.header li span:hover{
+	background: #5FAEE3;
+}
+
+.header li a:hover{
+	text-decoration: none;
+}
+
+.header-content{
+	padding: 30px 0;
+}
+
+.user-info{
+	float: right;
+	margin: -6px 0;
+	padding: 0;
+	position: relative;
+	bottom: 8px;
+	left: 90px;
+}
+
+.user-info img{
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.user-info li{
+	margin: 0 5px;
+	font-size: 15px;
+}
+
+.user-info li:nth-child(2) i {
+  color: #CBD0D5;
+  font-size: 18px;
+  margin-left: 5px;
+  transform: rotate(-90deg);
+  transition: transform 0.2s;
+}
+
+.user-info li:nth-child(2):hover i{
+     transform: rotate(0deg);
+    transition: transform 0.2s;
+    color: #5FAEE3;
+}
+
+.user-info li:nth-child(2){
+	display: block;
+	position: relative;
+	background: transparent;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.user-info li:nth-child(2) > ul{
+	border-radius: 9px;
+}
+
+.user-info li:nth-child(2) > ul > li{
+	background: transparent;
+	color: #000;
+	margin: 4px 0;
+	padding: 0;
+	width: 100%;
+	font-size: 16px;
+	padding-left: 8px;
+	border-radius: 9px 9px  0 0;
+}
+
+.user-info li:nth-child(2) > ul > li:hover{
+	background: #5FAEE3;
+	color: #fff;
+}
+
+.user-info li:nth-child(2) > ul{
+	min-width: 150px;
+}
+
